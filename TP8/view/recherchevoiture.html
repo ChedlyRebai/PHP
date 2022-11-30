@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Chercher voiture</legend>
+        <form action="../model/recherchevoitureaction.php" method="post">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Carburant</td>
+                        <td>
+                            <select name="carburant" id="">
+                                <option value="0" selected>selectionner le carburant</option>
+                                <option value="essence">essence</option>
+                                <option value="diesel">disel</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="submit" value="send"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </fieldset>
+</body>
+
+</html>
